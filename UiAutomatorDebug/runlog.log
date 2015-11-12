@@ -1242,3 +1242,10 @@ compile:
       [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
       [dex] Found Deleted Target File
       [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+Error: UI test projects can only target API 16 and above
+Buildfile: C:\KAZAM\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+BUILD FAILED
+C:\KAZAM\UiAutomatorHelper\UiAutomatorDebug\build.xml:90: Cannot find E:\Program Files (x86)\Android\android-sdk\tools\ant\uibuild.xml imported from C:\KAZAM\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+Total time: 0 seconds

@@ -23,7 +23,7 @@ public class CtsHelper {
 	 * 4.运行TestPlan
 	 */
 	//输入参数，改变以下参数来适配不同的类
-	private String workspace="C:\\Users\\fanhq\\git\\UiAutomatorHelper\\UiAutomatorDebug";
+	private String workspace="C:\\KAZAM\\UiAutomatorHelper\\UiAutomatorDebug";
 	private String className_FullName="com.jikexueyuan.demo.Demo1";
 	private String jarName="CalculatorCaseCTS";
 	private String androidId="4";

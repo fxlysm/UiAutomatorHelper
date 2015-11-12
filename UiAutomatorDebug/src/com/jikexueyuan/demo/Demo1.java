@@ -15,13 +15,14 @@ public class Demo1 extends UiAutomatorTestCase{
 		//new UiAutomatorHelper("Demo", "com.jikexueyuan.demo.Demo1", "testBrowser", "1");
 		
 		String workspase, className, jarName, androidId, sdkpath;
-		workspase="C:\\Users\\fanhq\\git\\UiAutomatorHelper\\UiAutomatorDebug";
+		workspase="C:\\KAZAM\\UiAutomatorHelper\\UiAutomatorDebug";
 		className="com.jikexueyuan.demo.Demo1";
 		jarName="demo1";
 		androidId="1";
-		sdkpath="E:\\Program Files (x86)\\Android\\android-sdk";
+		sdkpath="E:\\android\\android\\sdk";
 		CtsHelper cts=new CtsHelper(workspase, className, jarName, androidId, sdkpath);
-		//cts.setDevices("0123456789");
+		// adb devices查看设备名
+		cts.setDevices("27b6c69c");
 		cts.runTest();
 
 	}
