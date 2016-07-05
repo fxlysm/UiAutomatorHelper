@@ -1,4 +1,4 @@
-##Uiautomator测试调试## 
+##Uiautomator测试调试
 
 ###进入工程目录###
 
